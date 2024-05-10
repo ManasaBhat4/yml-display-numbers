@@ -1,0 +1,12 @@
+name: numbers
+on: push
+jobs:
+  build:
+    runs-on : ubuntu-latest
+    steps:
+      - name:  Display Numbers
+        run: |
+          for i in {1..10}; do
+            echo $i
+          done  
+    
