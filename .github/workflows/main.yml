@@ -6,7 +6,7 @@ jobs:
     steps:
       - name:  Display Numbers
         run: |
-          for i in {1..10}; do
+          for i in {1..15}; do
             echo $i
           done  
     
